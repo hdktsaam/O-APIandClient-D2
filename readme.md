@@ -2,6 +2,23 @@
 
 ## probeer zoveel als mogelijk de forumieren te doen werken
 
+de url van de api: https://o-apiandclient-render.onrender.com/
+
+API Structuur:
+
+1. /geschenken <br>
+   get - / --> lijst geschenken <br>
+   get - /:ID --> 1 geschenk<br>
+   put - / --> geschenk toevoegen<br>
+   delete - /:ID --> geschenk wissen<br>
+
+2. /kinderen<br>
+   get - / --> lijst kinderen<br>
+   get - /:ID --> 1 kind + detail<br>
+   put - / --> kind toevoegen<br>
+   patch - /wisGeschenk/:ID --> wis geschenk uit de lijst<br>
+   patch - /addGeschenk/:ID --> voeg geschenk toe aan de lijst<br>
+
 ### voeg geschenken toe, of wis geschenken.
 
 1. Je selecteerd een kind
