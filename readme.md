@@ -16,8 +16,8 @@ API Structuur:
    get - / --> lijst kinderen<br>
    get - /:ID --> 1 kind + detail<br>
    put - / --> kind toevoegen<br>
-   patch - /wisGeschenk/:ID --> wis geschenk uit de lijst<br>
-   patch - /addGeschenk/:ID --> voeg geschenk toe aan de lijst<br>
+   patch - /wisGeschenk/:ID --> wis geschenk uit de lijst body: {ID: nr geschenk}<br>
+   patch - /addGeschenk/:ID --> voeg geschenk toe aan de lijst {ID: nr geschenk}<br>
 
 ### voeg geschenken toe, of wis geschenken.
 
